@@ -5,12 +5,131 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type="images/README.png">
+    <link rel="shortcut icon" href="images/README.png" type="image/x-icon">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;900&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
+
+    <header>
+        <div class="logo">
+            <img src="images/README.png/" alt="reademe">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="humburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav--item"><a href="#home" class="nav--link">Home</a></li>
+                <li class="nav--item"><a href="#service" class="nav--link">My Service</a></li>
+                <li class="nav--item"><a href="#about" class="nav--link">About me</a></li>
+                <li class="nav--item"><a href="#work" class="nav--link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Introdution -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">Hi, I am <strong>Jane Smith</strong></h1>
+        <p class="section__subtitle section__subtitle--intro">front-end dev</p>
+        <img src="images/README.png" alt="picture of reade me" class="intro__img">
+    </section>
+
+    <!-- My service -->
+    <section class="my-services" id="service">
+        <h2 class="section__title section__title--service">What I do </h2>
+        <div class="services">
+            <div class="service">
+                <h3>Design + Development</h3>
+                <p>asdasdasdasdasdasdasda asdasdsdasdasdasdasdasdasdasdasdasdasdasdas asdasda asdasdad
+                </p>
+            </div>
+            <!-- / service -->
+
+            <div class="service">
+                <h3>E-Commerce</h3>
+                <p>asdasdasasdasdasdadas asdas dasdasdasdas asdasdasdasdaadasdasdadadadsdasdasd
+                </p>
+            </div>
+            <!-- / service -->
+
+            <div class="service">
+                <h3>WordPress</h3>
+                <p>asdadasdasdasdasdadasdasdasdasdasasda asdasdas asdasdasd asdasdadsd asdasdads asdasdsdasdasdasdasdasdsdadadadadsa
+                </p>
+            </div>
+            <!-- / service -->
+
+        </div>
+        <!-- / services -->
+
+        <a href="#work" class="btn">My Work</a>
+
+    </section>
+
+    <!-- About me -->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about">Designer & developers based out of NYC</p>
+
+        <div class="about-me__body">
+            <p>sfdhjasdkadasdauidkwadguwjdawbjdjbabjbjd asdjhajshdhasd hjas da sdhja dahjsdahjsdjhasjhdbjwbjas</p>
+            <p>asdjajsdjasjdasdjashdajshdajshdhasjdhahj asjd asdhjashjd ahjsdahj sdasdasdjhasj dhjasdhjashjd asdhjashjdajhsdhjashdajhsdhjasjhdjah dhjashjdajhsdjhasd </p>
+        </div>
+
+        <img src="images/README.png" alt="reademe" class="about-me__img">
+
+    </section>
+
+    <!-- My Work -->
+    <section class="my-work" id="work">
+        <h2 class="section__title section__title__work">My Work</h2>
+        <p class="section__subtitle section__subtitle__work">A selection of my range of work</p>
+        <div class="portfolio">
+            <a href="#" class="portfolio__item">
+                <img src="images/image__1.jpeg" alt="asdasdas" class="portfolio__img">
+            </a>
+            <a href="#" class="portfolio__item">
+                <img src="images/image__2.jpeg" alt="asdasdas" class="portfolio__img">
+            </a>
+            <a href="#" class="portfolio__item">
+                <img src="images/image__3.jpeg" alt="asdasdas" class="portfolio__img">
+            </a>
+            <a href="#" class="portfolio__item">
+                <img src="images/image__4.png" alt="asdasdas" class="portfolio__img">
+            </a>
+            <a href="#" class="portfolio__item">
+                <img src="images/image__5.jpeg" alt="asdasdas" class="portfolio__img">
+            </a>
+            <a href="#" class="portfolio__item">
+                <img src="images/image__6.jpeg" alt="asdasdas" class="portfolio__img">
+            </a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <a href="#email" class="foot-link">SanDisk@Student.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="#">A<i class="fa-brands fa-codepen"></i></a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="#">B<i class="fa-brands fa-facebook-f"></i></a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="#">C<i class="fa-brands fa-linkedin-in"></i></a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="#">D<i class="fa-brands fa-pinterest"></i></a>
+            </li>
+
+        </ul>
+    </footer>
+    <script type="text/javascript" src="/javascript/index.js"></script>
 
 </body>
 
